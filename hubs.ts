@@ -23,6 +23,11 @@ import Monolith5 from './src/apps/Monolith5_Genres/hubs'
 import Monolith6 from './src/apps/Monolith6_Future/hubs'
 import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
 
+//Graphics
+import Creating_Objects from './src/apps/Graphics/Creating_Objects/hubs'
+import Photorealism from './src/apps/Graphics/Photorealism/hubs'
+
+
 //Future
 import Past from './src/apps/Future/Past/hubs'
 import Quote_01 from './src/apps/Future/Quote_01/hubs'
@@ -238,6 +243,9 @@ export {
     Label,Title,Label_lg,Label_bk,Label_vid,
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
+    
+    //Graphics
+    Creating_Objects, Photorealism,
     
     //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, 
