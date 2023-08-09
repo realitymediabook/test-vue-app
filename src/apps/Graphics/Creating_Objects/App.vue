@@ -1,6 +1,6 @@
 <template>
   <div> 
-  <div id="room" class="darkwall">
+  <div id="room" class="lightwall">
   <div class="squareoff">
   <Title msg="Creating Objects in 3D" />
   <br/>
