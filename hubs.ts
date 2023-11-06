@@ -23,6 +23,44 @@ import Monolith5 from './src/apps/Monolith5_Genres/hubs'
 import Monolith6 from './src/apps/Monolith6_Future/hubs'
 import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
 
+//Graphics
+import Creating_Objects from './src/apps/Graphics/Creating_Objects/hubs'
+import Photorealism from './src/apps/Graphics/Photorealism/hubs'
+
+
+//Future
+import Past from './src/apps/Future/Past/hubs'
+import Quote_01 from './src/apps/Future/Quote_01/hubs'
+import Creative_misuses from './src/apps/Future/Creative_misuses/hubs'
+import Current_Tech from './src/apps/Future/Current_Tech/hubs'
+import Pessimistic from './src/apps/Future/Pessimistic/hubs'
+import Speculative from './src/apps/Future/Speculative/hubs'
+import Speculative_02 from './src/apps/Future/Speculative_02/hubs'
+import Speculative_03 from './src/apps/Future/Speculative_03/hubs'
+
+import Probable_01 from './src/apps/Future/Probable_01/hubs'
+import Probable_01_2 from './src/apps/Future/Probable_01_2/hubs'
+import Probable_02 from './src/apps/Future/Probable_02/hubs'
+import Probable_03 from './src/apps/Future/Probable_03/hubs'
+import Probable_04 from './src/apps/Future/Probable_04/hubs'
+import Probable_05 from './src/apps/Future/Probable_05/hubs'
+import Probable_06 from './src/apps/Future/Probable_06/hubs'
+import Probable_07 from './src/apps/Future/Probable_07/hubs'
+import Probable_08 from './src/apps/Future/Probable_08/hubs'
+import Plausible_01 from './src/apps/Future/Plausible_01/hubs'
+import Plausible_02 from './src/apps/Future/Plausible_02/hubs'
+import Plausible_03 from './src/apps/Future/Plausible_03/hubs'
+import Plausible_04 from './src/apps/Future/Plausible_04/hubs'
+import Plausible_05 from './src/apps/Future/Plausible_05/hubs'
+import Plausible_06 from './src/apps/Future/Plausible_06/hubs'
+import Possible_01 from './src/apps/Future/Possible_01/hubs'
+import Possible_02 from './src/apps/Future/Possible_02/hubs'
+import Possible_03 from './src/apps/Future/Possible_03/hubs'
+import Possible_04 from './src/apps/Future/Possible_04/hubs'
+import Possible_05 from './src/apps/Future/Possible_05/hubs'
+import Possible_06 from './src/apps/Future/Possible_06/hubs'
+import Possible_07 from './src/apps/Future/Possible_07/hubs'
+
 //Genres
 import Alyx from './src/apps/Room5/Alyx/hubs'
 import Pokemon from './src/apps/Room5/Pokemon/hubs'
@@ -174,6 +212,14 @@ import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
 import Portals from './src/apps/Onboarding/Portals/hubs'
+
+//Citations
+import Cite_Genre from './src/apps/Citations/Citations_Genres/hubs'
+import Cite_Presence from './src/apps/Citations/Citations_PresAur/hubs'
+import Cite_What from './src/apps/Citations/Citations_WhatAreReality/hubs'
+
+
+
 //test
 import AudioPad from './src/apps/AudioPad/hubs'
 import Label from './src/apps/Label/hubs'
@@ -182,6 +228,9 @@ import Label_vid from './src/apps/Label_vid/hubs'
 import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
+
+
+
 
 export {
     // for updating ethereal once per tick
@@ -195,6 +244,9 @@ export {
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     
+    //Graphics
+    Creating_Objects, Photorealism,
+    
     //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
@@ -202,6 +254,10 @@ export {
     
     //what are AR VR
     Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
+    
+    //future
+    Past, Speculative, Speculative_02, Speculative_03, Quote_01, Probable_01, Probable_01_2, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
+    Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
@@ -218,10 +274,14 @@ export {
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
     
+    //Citations
+    Cite_Genre, Cite_Presence, Cite_What,
+
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2, hubsTest3}
+    hubsTest1, hubsTest2, hubsTest3
+}
 
 
 
