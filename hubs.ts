@@ -23,6 +23,11 @@ import Monolith5 from './src/apps/Monolith5_Genres/hubs'
 import Monolith6 from './src/apps/Monolith6_Future/hubs'
 import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
 
+//Graphics
+import Creating_Objects from './src/apps/Graphics/Creating_Objects/hubs'
+import Photorealism from './src/apps/Graphics/Photorealism/hubs'
+
+
 //Future
 import Past from './src/apps/Future/Past/hubs'
 import Quote_01 from './src/apps/Future/Quote_01/hubs'
@@ -108,6 +113,7 @@ import Theaters from './src/apps/History/Theaters/hubs'
 import Theater_dome from './src/apps/History/Theater_dome/hubs'
 import Skybox from './src/apps/History/Skybox/hubs'
 import Metaverse from './src/apps/History/Metaverse/hubs'
+import Asymm_test from './src/apps/History/Asymm-test/hubs'
 
 import VR from './src/apps/History/VR/hubs'
 import AR from './src/apps/History/AR/hubs'
@@ -239,6 +245,9 @@ export {
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     
+    //Graphics
+    Creating_Objects, Photorealism,
+    
     //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
@@ -252,7 +261,7 @@ export {
     Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History
-    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
+    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox, Asymm_test,
 
     // Presence and Aura
     Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
