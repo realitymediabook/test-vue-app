@@ -113,6 +113,7 @@ import Theaters from './src/apps/History/Theaters/hubs'
 import Theater_dome from './src/apps/History/Theater_dome/hubs'
 import Skybox from './src/apps/History/Skybox/hubs'
 import Metaverse from './src/apps/History/Metaverse/hubs'
+import Asymm_test from './src/apps/History/Asymm-test/hubs'
 
 import VR from './src/apps/History/VR/hubs'
 import AR from './src/apps/History/AR/hubs'
@@ -260,7 +261,7 @@ export {
     Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History
-    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
+    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox, Asymm_test,
 
     // Presence and Aura
     Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
