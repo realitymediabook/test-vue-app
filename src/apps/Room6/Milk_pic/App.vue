@@ -1,12 +1,7 @@
 <template>
   <div> 
-  <div id="room">
-  <div class="spacer">
-  <br><br>
-    <img src="../../../assets/images/Room6/cloudoversidra.jpg" width="700" >
-  <!-- <Title msg="Ultimate Empathy Machine" /> -->
-
-  </div>
+  <div id="room" class="darkwall">
+    <img xr-layer src="../../../assets/images/Room6/cloudoversidra.jpg" height="326">
   </div>
   </div> 
 </template>

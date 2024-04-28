@@ -1,21 +1,29 @@
 <template>
   <div> 
   <div id="room">
-  <div class="spacer">
-  <br><br>
-  <Title msg="Very carefully stretch your arms out for balance." />
-	<!-- <div class="squareoff"> First person shooter games such as  <a href="https://www.half-life.com/en/alyx/" target="_blank">HalfLife: Alyx </a> have long used 3-D graphics to create an immersive experience for millions of players. And for decades, 
-    players on computers and game consoles have yearned for true VR so that they could fall through the screen into the worlds on the other side.</div>  -->
+<div class="spacer-side">
+  <div class="squareoff">
+  <br>
+  <img class="centerImg" height="300" src="../../../assets/images/Pit/Original_pit.jpg">
+  <br />
+A view of the original Pit model shows a side view of the virtual environment. Subjects start in the Training Room and later enter the Pit Room.   
+<br><br>
+<div class="oblique">Meehan, Michael, Brent Insko, Mary Whitton, and Frederick P Brooks. 2002. (Figure 1 in “Physiological Measures of Presence in Stressful Virtual Environments.” ACM Transactions on Graphics 21 (3): 645–52.)</div>
+<br />
   </div>
+</div>
   </div>
   </div> 
 </template>
 
 <script setup>
-import Title from '../../../components/CenterTitle.vue'
+import { inject } from 'vue'
 
+import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 </script>
 
 <style scoped>

@@ -1,19 +1,27 @@
 <template>
   <div> 
-  <div id="room">
-  <div class="spacer">
+  <div id="room" class="darkwall">
+  <div class="spacer-side">
   <Title msg="Terracotta Warriors AR" />
-	<div class="squareoff">"The Franklin Institute is using AR to enhance their Terracotta Warrior exhibition which were displayed in Philadelphia until March 2018. The museum’s app, powered by Wikitude technology, allows visitors to use their smartphone to scan items and visualize rich AR content to learn even more about the intriguing history behind the magnificent clay soldiers."</div>
+  <br><br>
+	<div class="squareoff">The Franklin Institute in Philadelphia offered a mobile AR experience for their Terracotta Warrior exhibition. The app allowed visitors to use their smartphones to scan items and view various AR content to learn  more about the history behind the clay soldiers.
+  <br /><br />
+  <span xr-layer @click="linkClick" class="xrlink alink" id="Terracotta_link"><a href="https://www.youtube.com/watch?v=9advEusJB_Y&t=13s&ab_channel=CGTN" target="_blank">Click here to learn more about the video</a></span>
+
+  </div>
   </div>
   </div>
   </div> 
 </template>
 
 <script setup>
-import Title from '../../../components/CenterTitle.vue'
+import { inject } from 'vue'
 
+import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 </script>
 
 <style scoped>

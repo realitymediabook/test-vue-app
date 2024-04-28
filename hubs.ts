@@ -1,9 +1,11 @@
 
 import hubsTest1 from './src/apps/Testing/HubsTest1/hubs'
 import hubsTest2 from './src/apps/Testing/HubsTest2/hubs'
+import hubsTest3 from './src/apps/Testing/HubsTest3/hubs'
 
 import PortalTitle from './src/apps/Portal/PortalTitle/hubs'
 import PortalSubtitle from './src/apps/Portal/PortalSubtitle/hubs'
+import GraphLabel from './src/apps/GraphLabel/hubs'
 
 import Map from './src/apps/Center_Map/hubs'
 import Center1 from './src/apps/Center1_Intro/hubs'
@@ -20,6 +22,46 @@ import Monolith4 from './src/apps/Monolith4_Presence/hubs'
 import Monolith5 from './src/apps/Monolith5_Genres/hubs'
 import Monolith6 from './src/apps/Monolith6_Future/hubs'
 import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
+
+//Graphics
+import Creating_Objects from './src/apps/Graphics/Creating_Objects/hubs'
+import Photorealism from './src/apps/Graphics/Photorealism/hubs'
+
+
+//Future
+import Past from './src/apps/Future/Past/hubs'
+import Quote_01 from './src/apps/Future/Quote_01/hubs'
+import Creative_misuses from './src/apps/Future/Creative_misuses/hubs'
+import Current_Tech from './src/apps/Future/Current_Tech/hubs'
+import Pessimistic from './src/apps/Future/Pessimistic/hubs'
+import Speculative from './src/apps/Future/Speculative/hubs'
+import Speculative_02 from './src/apps/Future/Speculative_02/hubs'
+import Speculative_03 from './src/apps/Future/Speculative_03/hubs'
+
+import Probable_01 from './src/apps/Future/Probable_01/hubs'
+import Probable_01_2 from './src/apps/Future/Probable_01_2/hubs'
+import Probable_02 from './src/apps/Future/Probable_02/hubs'
+import Probable_03 from './src/apps/Future/Probable_03/hubs'
+import Probable_04 from './src/apps/Future/Probable_04/hubs'
+import Probable_05 from './src/apps/Future/Probable_05/hubs'
+import Probable_06 from './src/apps/Future/Probable_06/hubs'
+import Probable_07 from './src/apps/Future/Probable_07/hubs'
+import Probable_08 from './src/apps/Future/Probable_08/hubs'
+import Plausible_01 from './src/apps/Future/Plausible_01/hubs'
+import Plausible_02 from './src/apps/Future/Plausible_02/hubs'
+import Plausible_03 from './src/apps/Future/Plausible_03/hubs'
+import Plausible_04 from './src/apps/Future/Plausible_04/hubs'
+import Plausible_05 from './src/apps/Future/Plausible_05/hubs'
+import Plausible_06 from './src/apps/Future/Plausible_06/hubs'
+import Possible_01 from './src/apps/Future/Possible_01/hubs'
+import Possible_02 from './src/apps/Future/Possible_02/hubs'
+import Possible_03 from './src/apps/Future/Possible_03/hubs'
+import Possible_04 from './src/apps/Future/Possible_04/hubs'
+import Possible_05 from './src/apps/Future/Possible_05/hubs'
+import Possible_06 from './src/apps/Future/Possible_06/hubs'
+import Possible_07 from './src/apps/Future/Possible_07/hubs'
+
+//Genres
 import Alyx from './src/apps/Room5/Alyx/hubs'
 import Pokemon from './src/apps/Room5/Pokemon/hubs'
 import BeatSaber from './src/apps/Room5/BeatSaber/hubs'
@@ -27,45 +69,139 @@ import WalkingDead from './src/apps/Room5/WalkingDead/hubs'
 import Apparizione from './src/apps/Room5/Apparizione/hubs'
 import Minecraft from './src/apps/Room5/Minecraft/hubs'
 import GamesBanner from './src/apps/Room5/GamesBanner/hubs'
-import ArtBanner from './src/apps/Room5/ArtBanner/hubs'
-import {initializeEthereal, systemTick} from './src/apps/HubsApp'
+import RecRoom from './src/apps/Room5/RecRoom/hubs'
+import Steam from './src/apps/Room5/Steam/hubs'
+import Ikea from './src/apps/Room5/Ikea/hubs'
+import Ted_medical from './src/apps/Room5/Ted_medical/hubs'
+import Omaha from './src/apps/Room5/Omaha/hubs'
+import MagicGarden from './src/apps/Room5/MagicGarden/hubs'
+import Makropol from './src/apps/Room5/Makropol/hubs'
+import ManOnSpire from './src/apps/Room5/ManonSpire/hubs'
+import three_banner from './src/apps/Room5/360_banner/hubs'
+import Birnbaum from './src/apps/Room5/Birnbaum/hubs'
+import Commercial_banner from './src/apps/Room5/Commercial_banner/hubs'
+import Cultural_banner from './src/apps/Room5/Cultural_banner/hubs'
+import Edu_banner from './src/apps/Room5/Edu_banner/hubs'
+import Game_banner from './src/apps/Room5/Game_banner/hubs'
+import Nav_banner from './src/apps/Room5/Nav_banner/hubs'
+import Remediate_banner from './src/apps/Room5/Remediate_banner/hubs'
+import Sandbox_banner from './src/apps/Room5/Sandbox_banner/hubs'
+import Social_banner from './src/apps/Room5/SocialPlatform_banner/hubs'
+import Threshold from './src/apps/Room5/Threshold/hubs'
+import VR_Art from './src/apps/Room5/VR_Art/hubs'
+import VR_Art2 from './src/apps/Room5/VR_Art2/hubs'
+import Art_banner from './src/apps/Room5/Art_Banner/hubs'
 
-import ARandPresence from './src/apps/Room6/ARandPresence/hubs'
+
+import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
+import TheDayTheWorldChanged from './src/apps/Room5/TheDayTheWorldChanged/hubs'
+import CerneYArena from './src/apps/Room5/CerneYArena/hubs'
+import {initializeEthereal, systemTick, loadCache, exportCache} from './src/apps/HubsApp'
+
+//History Room
+import LinearPerspective from './src/apps/History/LinearPerspective/hubs'
+import LinearPerspective_Demo from './src/apps/History/LinearPerspective_demo/hubs'
+import Panorama from './src/apps/History/Panorama/hubs'
+import CameraObscura from './src/apps/History/CameraObscura/hubs'
+import Photography from './src/apps/History/Photography/hubs'
+import Film from './src/apps/History/Film/hubs'
+import TV from './src/apps/History/TV/hubs'
+import Equirectangular from './src/apps/History/EquirectangularProjection/hubs'
+import Sensorama from './src/apps/History/Sensorama/hubs'
+import ImmersiveRides from './src/apps/History/ImmersiveRides/hubs'
+import Theaters from './src/apps/History/Theaters/hubs'
+import Theater_dome from './src/apps/History/Theater_dome/hubs'
+import Skybox from './src/apps/History/Skybox/hubs'
+import Metaverse from './src/apps/History/Metaverse/hubs'
+import Asymm_test from './src/apps/History/Asymm-test/hubs'
+
+import VR from './src/apps/History/VR/hubs'
+import AR from './src/apps/History/AR/hubs'
+import GoogleStreetView from './src/apps/History/GoogleStreetView/hubs'
+import Stereoscopic from './src/apps/History/Stereoscopic/hubs'
+import Trompe from './src/apps/History/trompe/hubs'
+import UltimateDisplay from './src/apps/History/UltimateDisplay/hubs'
+import VRCave from './src/apps/History/VRCave/hubs'
+import Zoetrope from './src/apps/History/Zoetrope/hubs'
+
+
+// Presence and Aura Room 
 import Aura from './src/apps/Room6/Aura/hubs'
+import Absence_Mediation from './src/apps/Room6/Absence_Mediation/hubs'
+import Gaudi from './src/apps/Room6/Gaudi/hubs'
+import Gaudi_pic from './src/apps/Room6/Gaudi_pic/hubs'
 import cybersickness from './src/apps/Room6/cybersickness/hubs'
+import cybersickness_pic from './src/apps/Room6/cybersickness_pic/hubs'
 import Empathy from './src/apps/Room6/Empathy/hubs'
-import Empathy_title from './src/apps/Room6/Empathy_title/hubs'
-
-import Presence_map from './src/apps/Room6/map/hubs'
-
+import Mainmap_black from './src/apps/Room6/Mainmap_black/hubs'
 import Milk from './src/apps/Room6/Milk/hubs'
 import Milk_pic from './src/apps/Room6/Milk_pic/hubs'
 import Nonnie from './src/apps/Room6/Nonnie/hubs'
 import Nonnie_pic from './src/apps/Room6/Nonnie_pic/hubs'
-
-import PitExperiment from './src/apps/Room6/PitExperiment/hubs'
-import Pit_pic from './src/apps/Room6/Pit_pic/hubs'
-
+import Pit_Experiment from './src/apps/Room6/Pit_Experiment/hubs'
+import Pit_AR from './src/apps/Room6/Pit_AR/hubs'
 import Presence from './src/apps/Room6/Presence/hubs'
 import Treehugger from './src/apps/Room6/Treehugger/hubs'
-import Treehugger_pic from './src/apps/Room6/Treehugger_pic/hubs'
-import Exit from './src/apps/Room6/Exit/hubs'
-
-import Parthenon from './src/apps/Room6/Parthenon/hubs'
+import Laciotat from './src/apps/Room6/Laciotat/hubs'
+import PlaceandSpace from './src/apps/Room6/PlaceandSpace/hubs'
 import TerracottaPic from './src/apps/Room6/TerracottaPic/hubs'
 import Terracotta from './src/apps/Room6/Terracotta/hubs'
-import Treehuggerpic2 from './src/apps/Room6/TreehuggerPic2/hubs'
+import Quote1 from './src/apps/Room6/Quote1/hubs'
+import Quote2 from './src/apps/Room6/Quote2/hubs'
+import Quote3 from './src/apps/Room6/Quote3/hubs'
+import Quote4 from './src/apps/Room6/Quote4/hubs'
+import Quote5 from './src/apps/Room6/Quote5/hubs'
+// Presence and Aura - video links
+import casa_vid from './src/apps/Room6/casa_vid_link/hubs'
+import metaverse_vid from './src/apps/Room6/metaverse_vid_link/hubs'
+import milk_vid from './src/apps/Room6/milk_vid_link/hubs'
+import mother_vid from './src/apps/Room6/mother_vid_link/hubs'
+import nonnie_vid from './src/apps/Room6/nonnie_vid_link/hubs'
+import plank_vid from './src/apps/Room6/plank_vid_link/hubs'
+import rollercoaster_vid from './src/apps/Room6/rollercoaster_vid_link/hubs'
+import terracotta_vid from './src/apps/Room6/terracotta_vid_link/hubs'
+import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
+
+
+//What are AR VR
+import Lumiere from './src/apps/Room_ARVR/Lumiere/hubs'
+import ARVR_table from './src/apps/Room_ARVR/ARVR_table/hubs'
+import ChainDiagram from './src/apps/Room_ARVR/Chain_Diagram/hubs'
+import PortalTable from './src/apps/Room_ARVR/Portal_Table/hubs'
+import PortalTableTitle from './src/apps/Room_ARVR/Portal_Table_Title/hubs'
+import TV_seeit from './src/apps/Room_ARVR/TV_seeit/hubs'
+import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
+import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
+import Palmer from './src/apps/Room_ARVR/Palmer/hubs'
+import Lanier from './src/apps/Room_ARVR/Lanier/hubs'
+import ARPortal from './src/apps/Room_ARVR/ARPortal/hubs'
+import Laciotat_info from './src/apps/Room_ARVR/Laciotat_info/hubs'
+import Laciotat_Portal_info from './src/apps/Room_ARVR/Laciotat_Portal_info/hubs'
+import Milgram from './src/apps/Room_ARVR/Milgram/hubs'
+import Oculus_info from './src/apps/Room_ARVR/Oculus_info/hubs'
+
+import Laciotat_banner from './src/apps/Room_ARVR/Laciotat_banner/hubs'
+import Left_banner from './src/apps/Room_ARVR/Left_banner/hubs'
+import Sutherland_banner from './src/apps/Room_ARVR/Sutherland_banner/hubs'
+import Lanier_banner from './src/apps/Room_ARVR/Lanier_banner/hubs'
+import Milgram_banner from './src/apps/Room_ARVR/Milgram_banner/hubs'
+
+import TV_banner from './src/apps/Room_ARVR/TV_banner/hubs'
+import Oculus_banner from './src/apps/Room_ARVR/Oculus_banner/hubs'
+
 
 //Pit
 import Pit from './src/apps/Room_Pit/Pit/hubs'
 import PitInstruction from './src/apps/Room_Pit/PitInstruction/hubs'
 import pitSign1 from './src/apps/Room_Pit/pitSign1/hubs'
 import pitSign2 from './src/apps/Room_Pit/pitSign2/hubs'
+import pitSign3 from './src/apps/Room_Pit/pitSign3/hubs'
 
 //Onboarding Room
 import Welcome from './src/apps/Onboarding/Welcome/hubs'
 import MitPress from './src/apps/Onboarding/MitPress/hubs'
-import MitText from './src/apps/Onboarding/MitText/hubs'
+//test
+import MitPress1 from './src/apps/Onboarding/MitPress_test1/hubs'
 
 import HubsPlatform from './src/apps/Onboarding/HubsPlatform/hubs'
 import HubsPlatform2 from './src/apps/Onboarding/HubsPlatform2/hubs'
@@ -76,19 +212,77 @@ import Sharing from './src/apps/Onboarding/Sharing/hubs'
 import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
+import Portals from './src/apps/Onboarding/Portals/hubs'
+
+//Citations
+import Cite_Genre from './src/apps/Citations/Citations_Genres/hubs'
+import Cite_Presence from './src/apps/Citations/Citations_PresAur/hubs'
+import Cite_What from './src/apps/Citations/Citations_WhatAreReality/hubs'
+
+
+
+//test
+import AudioPad from './src/apps/AudioPad/hubs'
+import Label from './src/apps/Label/hubs'
+
+import Label_vid from './src/apps/Label_vid/hubs'
+import Label_bk from './src/apps/Label_bk/hubs'
+import Label_lg from './src/apps/Label_lg_text/hubs'
+import Title from './src/apps/Title/hubs'
+
+
+
 
 export {
     // for updating ethereal once per tick
     systemTick, initializeEthereal,
 
+    // cache management
+    exportCache, loadCache,
+
+    //General Use
+    Label,Title,Label_lg,Label_bk,Label_vid,
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
-    Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, Milk, Nonnie, Treehugger, Presence, Empathy, Aura, Pit, PitInstruction, pitSign1,pitSign2, PitExperiment,ARandPresence, cybersickness, Presence_map, Milk_pic, Empathy_title, Nonnie_pic, Treehugger_pic, Pit_pic,Exit, Welcome, MitPress, HubsPlatform, HubsFeatures, AudioText, Parthenon, Terracotta, TerracottaPic, Treehuggerpic2, rotundaMap, Sharing,MitText, HubsPlatform2, Overview, Back,
+    
+    //Graphics
+    Creating_Objects, Photorealism,
+    
+    //Genres
+    Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, 
+    RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
+    three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,Art_banner,
+    
+    //what are AR VR
+    Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
+    
+    //future
+    Past, Speculative, Speculative_02, Speculative_03, Quote_01, Probable_01, Probable_01_2, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
+    Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
+
+    //History
+    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox, Asymm_test,
+
+    // Presence and Aura
+    Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
+    // Presence and Aura - video links
+    casa_vid, metaverse_vid, milk_vid, mother_vid, nonnie_vid, plank_vid, rollercoaster_vid, terracotta_vid, tree_vid,
+
+    //Onboarding and Rotunda
+    Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
+    MitPress1,Portals,
+   
+    //Pit 
+    Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
+    
+    //Citations
+    Cite_Genre, Cite_Presence, Cite_What,
 
     // Portal titles
-    PortalTitle, PortalSubtitle,
+    PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2}
+    hubsTest1, hubsTest2, hubsTest3
+}
 
 
 

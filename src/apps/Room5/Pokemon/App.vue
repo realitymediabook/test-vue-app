@@ -1,13 +1,11 @@
 <template>
-  <div id="room">
-  <div class="spacer">
+  <div id="room" class="lightwall">
+  <div class="squareoff">
   <Title msg="Pokemon Go" />
-	  <div class="squareoff">Pokemon Go (2016) is perhaps still the best-known AR game. 
-      The Pokemon franchise was already decades old, and this was certainly part of the 
-      answer for the AR game’s surprising impact. 
-      It was the first Pokemon game on a mobile phone and the first free Pokemon game on any platform.
+  <br />
+	  Pokemon Go (2016) is perhaps still the best-known AR game. 
+    It uses GPS and time to detect where and when you are in the game and make Pokémons appear around you, which you can catch.
     </div> 
-  </div>
   </div>
 </template>
 
